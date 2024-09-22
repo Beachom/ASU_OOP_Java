@@ -34,5 +34,6 @@ public class Initials {
 
         // Display the results
         System.out.printf("For %s initials are : %s\n", fullName, initials);
+        scanner.close();
     }
 }
